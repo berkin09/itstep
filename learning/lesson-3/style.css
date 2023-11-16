@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ----------------------------- Styles ----------------------------------------- */
+.container {
+    max-width: 1500px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(175, 243, 135);
+}
+
+
+
+.hero__actors {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero__container {
+    text-align: center;
+    background-color: rgba(156, 156, 156, 0.521);
+    border: 5px double black;
+    border-radius: 10px;
+    /* width: 60%; */
+    /* height: 600px; */
+    padding: 10px;
+    margin: 20px;
+}
+
+#main-title {
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+.link {
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(23, 199, 140);
+    padding: 10px 20px;
+    width:max-content;
+    color: black;
+    text-decoration: none;
+}
