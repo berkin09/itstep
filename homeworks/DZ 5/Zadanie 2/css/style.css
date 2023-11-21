@@ -1,0 +1,20 @@
+.container {
+  margin: 50px 20px;
+}
+
+/* .box {
+  max-width: 300px;
+} */
+
+.title {
+  display: block;
+  background-color: rgb(64, 163, 163);
+  color: white;
+  padding: 10px;
+}
+
+.text {
+  display: block;
+  padding: 10px;
+  background-color: rgb(119, 155, 143);
+}
