@@ -18,16 +18,19 @@ body {
     background-color: #ec9daf;
     padding: 15px;
     margin: 10px;
+    list-style-position: inside;
  }
 
- .fruits__row {
+ li {
+    margin-bottom: 10px;
     background-color: #c56477;
-    padding: 0 5px;
+    padding: 5px;
  }
 
  .fruits__color {
-    padding: 5px 20px;
-    margin: 15px 20px;
+    /* /* padding: 5px 20px; */
+    /* margin: 15px 20px; */
+    padding: 5px;
     width: max-content;
     background-color: #9e364b;
  }
