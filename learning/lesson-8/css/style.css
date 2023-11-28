@@ -1,0 +1,45 @@
+.box-table {
+    width: 50%;
+    overflow: auto;
+}
+.table {
+    width: 100%;
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    border-spacing: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+th, td {
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+}
+
+thead {
+    background-color: blue;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+    color: #000;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: aqua;
+}
+
+tbody tr:nth-child(1) {
+    background-color: khaki;
+}
+
+tbody tr:last-child {
+    background-color: blueviolet;
+}
+
+tfoot tr {
+    background-color: lightgreen;
+}
