@@ -1,11 +1,26 @@
-table {
-    margin: 5px;
+.box-table {
+    background-color: rgb(248, 248, 248);
+    width: max-content;
+    margin: 0 auto;
+
 }
+
+table {
+    border-spacing: 10px;
+    /* border-collapse: collapse; */
+    display: block;
+}
+
 th, td {
     padding: 10px 20px;
+
 }
 tr:first-child>th {
     color: white;
+}
+
+thead>tr>th:first-child {
+    background-color: none;
 }
 
 tr:first-child>th:nth-child(2) {
@@ -31,8 +46,9 @@ tfoot>tr>th:first-child {
     color: black;
 }
 
-.color1 {
-    
+tbody>tr>td {
+    background-color: white;
+    text-align: end;
 }
 
 tbody>tr>th{
@@ -40,6 +56,15 @@ tbody>tr>th{
     color: white;
 }
 
-.table__border {
+tfoot>tr>td:not(:first-child) {
+    text-align: end;
+}
+
+tr>th:first-child {
+    text-align: start;
+}
+
+tfoot {
+    display: ;
     border: 1px solid black;
 }
