@@ -1,0 +1,22 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    font-weight: 550;
+    padding: 10px;
+}
+
+tr>td {
+text-align: center;
+}
+
+tbody>tr>th {
+    text-align: start;
+}
+
+tbody>tr>th:first-child {
+    vertical-align: top;
+}

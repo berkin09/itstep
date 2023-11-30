@@ -1,0 +1,18 @@
+table  {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th,td {
+    border: 1px dashed rgb(136, 136, 136);
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(212, 185, 133);
+}
+
+tfoot>tr>td:first-child {
+    text-align: end;
+}
