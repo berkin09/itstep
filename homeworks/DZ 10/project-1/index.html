@@ -19,6 +19,7 @@
           name=""
           id="Card-number"
           placeholder="1234 5678 9012 3456"
+          class="card-number__type"
         />
         <label for="Name-On-Card" class="card-name">Name-On-Card</label>
         <input
@@ -26,8 +27,9 @@
           name=""
           id="Name-On-Card"
           placeholder="Name Surname"
-          class="card-name"
+          class="card-name card-name__type"
         />
+        <div class="wrapper-date">
         <div class="card-date">
           <label for="month" class="date">Expiry Date</label>
           <input
@@ -36,6 +38,7 @@
             id="month"
             placeholder="02"
             maxlength="2"
+            class="month-type"
           />
           <input
             type="number"
@@ -43,18 +46,25 @@
             id="year"
             placeholder="2017"
             maxlength="4"
+            class="year-type"
           />
         </div>
         <div class="password-box">
+          <div class="password-box__label">
           <label for="password" class="password">CVV / CVN</label>
+        </div>
+        <div class="password-box__password">
           <input
             type="password"
             name=""
             id="password"
             placeholder="***"
             maxlength="3"
+            class="password-type"
           />
         </div>
+        </div>
+      </div>
       </div>
     </div>
   </body>

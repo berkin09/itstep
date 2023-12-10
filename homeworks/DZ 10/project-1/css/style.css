@@ -4,14 +4,30 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #6c9496;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #7eaaab;
+  background-color: #a9d3d2;
+}
+
 .container {
   margin: 0 auto;
   padding: 50px;
-  width: 900px;
+  width: 700px;
   max-width: 100%;
   min-width: 320px;
   border-radius: 20px;
-  background-color: aqua;
+  background-color: #9fcdcd;
+  background-image: url(../img/moon_flag.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-x: 500px;
+  background-position-y: 150px;
 }
 
 .card-details {
@@ -20,23 +36,61 @@
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
-  background-color: orangered;
+  background-color: #db6422;
   margin-left: -70px;
   margin-bottom: 20px;
 }
 
 .card-number__box {
+  width: 60%;
   display: block;
   margin-bottom: 20px;
 }
+
+.card-name__type,
+.card-number__type {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
 .card-number,
 .card-name,
 .date,
 .password {
   display: block;
 }
+.wrapper-date{
+  width: 100%;
+}
 
-.card-date,
+.card-date {
+  display: inline-block;
+  width: 68.5%;
+}
+
 .password-box {
   display: inline-block;
+  width: 30%;
+}
+
+.month-type {
+  width: 100px;
+  margin-right: 20px;
+}
+.year-type {
+  width: 100px;
+  margin-left: auto;
+}
+
+.password-type {
+  width: 100%;
+}
+
+.password-box__password {
+  text-align: end;
+}
+
+.password-box__label {
+  text-align: start;
 }
