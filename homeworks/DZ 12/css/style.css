@@ -1,0 +1,97 @@
+.container {
+  background-color: #009e9d;
+  width: 100vw;
+  height: 100vh;
+}
+
+.boards {
+  display: flex;
+  background-color: #008b8a;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px 40px;
+}
+
+.cards {
+  display: flex;
+  padding: 20px;
+  overflow-x: scroll;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 400px;
+  height: 500px;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: #dcdcdc;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+.card__box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 2.5px;
+}
+
+.card__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__item-text {
+  margin-bottom: 10px;
+}
+
+.card__items-info {
+  display: flex;
+  align-items: center;
+}
+
+.burger {
+  width: 15%;
+}
+
+.item-info {
+  display: flex;
+  width: 70%;
+  justify-content: flex-start;
+}
+
+.item-icon {
+  display: flex;
+  justify-content: flex-end;
+  width: 15%;
+  align-items: flex-start;
+}
+
+.item-info__checked,
+.item-info__attach,
+.item-info__comments {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.item__info-img {
+  margin-right: 5px;
+}
+
+.item__info-text {
+  font-size: 14px;
+}
+
+.burger img,
+.item__info-img img {
+  width: 13px;
+}
+
+.item-icon img {
+  width: 40px;
+}
