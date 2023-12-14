@@ -1,0 +1,97 @@
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.breadcrumb {
+    padding-top: 50px;
+
+}
+
+.breadcrumb__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.breadcrumb__list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.breadcrumb__list li::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-weight: 700;
+    background-image: url(../img/arrow-icon--myiconfinder-23.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.breadcrumb__list li:last-child::after {
+    content: none;
+}
+
+.breadcrumb__list a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    transition: all 0.2s linear;
+}
+
+.breadcrumb__list a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.breadcrumb__list a:active {
+    color: purple;
+}
+
+.list li {
+    position: relative;
+    padding-left: 28px;
+}
+.list li::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-weight: 700;
+    /* margin-right: 10px; */
+    background-image: url(../img/checked.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+}
+
+*::selection {
+    background-color: lightyellow;
+    color: chocolate;
+}
+
+.text::first-letter {
+    font-weight: 700;
+    font-size: 50px;
+    color: red;
+}
+
+.text::first-line {
+    color: blue;
+}

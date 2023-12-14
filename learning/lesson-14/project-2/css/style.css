@@ -1,0 +1,20 @@
+.menu {
+    position: relative;
+    width: max-content;
+    text-align: center;
+    background-color: brown;
+}
+
+.menu li {
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+.sub-menu li:hover {
+    display: block;
+}
