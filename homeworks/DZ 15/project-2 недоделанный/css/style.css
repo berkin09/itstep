@@ -47,6 +47,6 @@
 
 .box2-rotate {
   transform: translateY(150px);
-  transform: rotateY(180deg);
+  transform: rotateZ(180deg);
   background-color: #872d62;
 }
