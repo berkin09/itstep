@@ -137,7 +137,7 @@
   text-decoration: none;
 }
 
-footer {
+.footer {
   background: #1e2c30;
   padding-top: 70px;
 }
@@ -181,10 +181,65 @@ footer {
 
 .road-map {
   display: grid;
-  grid-template-columns: repeat(2, 1f), 2fr, 1fr;
+  grid-template-columns: 210px 315px 418px 210px;
+  justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 .road-map__links {
   display: flex;
   flex-direction: column;
+  gap: 0 16px;
+}
+
+.road-map__title {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.8px; /* 140% */
+  letter-spacing: 0.352px;
+  margin-bottom: 24px;
+}
+
+.road-map__lists {
+  display: flex;
+  flex-direction: column;
+  gap: 9px 0;
+}
+
+.road-map__lists a,
+.road-map__lists li {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.9px; /* 170% */
+  letter-spacing: 0.17px;
+  text-decoration: none;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: #fff;
+  row-gap: 28px;
+  font-family: Manrope;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px; /* 150% */
+  letter-spacing: 0.17px;
+}
+
+.powered__text {
+  padding: 20px 0;
+  color: #fff;
+  background: #111e22;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  letter-spacing: 0.15px;
 }
