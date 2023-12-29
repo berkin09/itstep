@@ -1,201 +1,194 @@
 .market {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .container {
-    width: 1248px;
-    margin: 0 auto;
-    padding: 0 16px;
+  width: 1248px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .market {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .market__container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-image: url(../img/map.svg);
-    background-repeat: no-repeat;
-    background-position-y: 200px ;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/map.svg);
+  background-repeat: no-repeat;
+  background-position-y: 200px;
 }
 
 .market__title {
-    margin-bottom: 35px;
-    color: #1178B2;
-    font-family: Montserrat;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 80px;
+  margin-bottom: 35px;
+  color: #1178b2;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 80px;
 }
 
 .market__box {
-    display: flex;
-    flex-direction: column;
-    background-image: url(../img/map.svg);
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/map.svg);
+  background-repeat: no-repeat;
 }
 
 .market__tab {
-    display: flex;
-    background: #EEF1F4;
-    margin-bottom: 65px;
+  display: flex;
+  background: #eef1f4;
+  margin-bottom: 65px;
 }
 
 .market__tab li {
-    display: flex;
-    justify-content: center;
-    width: 304px;
-    padding: 10px;
-    font-family: Montserrat;
-    color: #484848;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 60px;
-    border-right: 1px solid #CFDDEB;
-
+  display: flex;
+  justify-content: center;
+  width: 304px;
+  padding: 10px;
+  font-family: Montserrat;
+  color: #484848;
+  font-size: 20px;
+  line-height: 60px;
+  border-right: 1px solid #cfddeb;
 }
 .market__tab li.active {
-    background: #88BBD8;
-    color: #FFF;
-    font-weight: 700;
-    border-radius: 5px;
-    border-right:none;
+  background: #88bbd8;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+  border-right: none;
 }
 
 .market__tab li:last-child {
-    border-right:none;
-    
+  border-right: none;
 }
 
 .market__content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .market__info {
-    display: flex;
-    flex-direction: column;
-    width: 294px;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 294px;
+  align-items: flex-start;
 }
 
 .market__caption {
-    margin-bottom: 29px;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 41px;
-    text-transform: uppercase;
+  margin-bottom: 29px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 41px;
+  text-transform: uppercase;
 }
 
 .market__green {
-    color: #07AF91;
-    font-weight: 700;
+  color: #07af91;
+  font-weight: 700;
 }
 
 .market__text {
-    margin-bottom: 29px;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21.5px;
+  margin-bottom: 29px;
+  color: #000;
+  font-family: Montserrat;
+  line-height: 21.5px;
 }
 
 .market__info a {
-    margin-bottom: 48px;
-    display: block;
-    width: 252px;
-    height: 80px;
-    border-radius: 10px;
-    background: linear-gradient(276deg, #016CA8 -7%, #61B5E4 77.16%);
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 80px;
-    text-align: center;
-    text-decoration: none;
+  margin-bottom: 48px;
+  display: block;
+  width: 252px;
+  height: 80px;
+  border-radius: 10px;
+  background: linear-gradient(276deg, #016ca8 -7%, #61b5e4 77.16%);
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .info__author {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .info__author img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-.info__author h2{
-    color: #000;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
+.info__author h2 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .info__author p {
-    color: #727272;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
+  color: #727272;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .market__cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    width: 289px;
-    height: 200px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 289px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+  justify-content: center;
+  align-items: center;
 }
 
 .card__title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    color: rgba(17, 120, 178, 0.50);
-    font-family: Montserrat;
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  color: rgba(17, 120, 178, 0.5);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 20px;
 }
 
 .card__text {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .card p {
-    color: rgba(16, 16, 16, 0.50);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
+  color: rgba(16, 16, 16, 0.5);
+  font-family: Montserrat;
+  line-height: 20px;
 }
 
 .button {
-    background: var(--1178-b-2, #1178B2);
+  background: var(--1178-b-2, #1178b2);
 }
 
 .button img {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .button p {
-    color: #FFF;
-    text-align: center;
-    font-weight: 500;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
 }
