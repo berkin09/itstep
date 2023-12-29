@@ -13,12 +13,21 @@
 }
 
 .market__container {
+<<<<<<< HEAD
   width: 100%;
   display: flex;
   flex-direction: column;
   background-image: url(../img/map.svg);
   background-repeat: no-repeat;
   background-position-y: 200px;
+=======
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/map.svg);
+    background-repeat: no-repeat;
+    background-position-y: 280px ;
+>>>>>>> f9d3d5a1c7967c631f54675c146a8169b729de61
 }
 
 .market__title {
@@ -44,6 +53,7 @@
 }
 
 .market__tab li {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   width: 304px;
@@ -53,6 +63,18 @@
   font-size: 20px;
   line-height: 60px;
   border-right: 1px solid #cfddeb;
+=======
+    display: flex;
+    justify-content: center;
+    width: 304px;
+    padding: 20px;
+    font-family: Montserrat;
+    color: #484848;
+    font-size: 20px;
+    font-weight: 400;
+    border-right: 1px solid #CFDDEB;
+
+>>>>>>> f9d3d5a1c7967c631f54675c146a8169b729de61
 }
 .market__tab li.active {
   background: #88bbd8;
@@ -100,6 +122,7 @@
   line-height: 21.5px;
 }
 
+<<<<<<< HEAD
 .market__info a {
   margin-bottom: 48px;
   display: block;
@@ -119,6 +142,28 @@
 .info__author {
   display: flex;
   align-items: center;
+=======
+.market__btn {
+    margin-bottom: 48px;
+    display: block;
+    width: 252px;
+    height: 80px;
+    border-radius: 10px;
+    background: linear-gradient(276deg, #016CA8 -7%, #61B5E4 77.16%);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.market__author {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+>>>>>>> f9d3d5a1c7967c631f54675c146a8169b729de61
 }
 
 .info__author img {
@@ -132,6 +177,7 @@
   font-size: 16px;
   font-weight: 500;
 }
+<<<<<<< HEAD
 
 .info__author p {
   color: #727272;
@@ -140,6 +186,20 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
+=======
+.market__parag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.market__parag {
+    color: #727272;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+>>>>>>> f9d3d5a1c7967c631f54675c146a8169b729de61
 }
 
 .market__cards {
