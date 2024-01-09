@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 20px;
+}
+
 .container {
     max-width: 1232px;
     padding: 0 16px;
@@ -33,29 +37,57 @@
 
 .hero__title {
     max-width: 90%;
-    margin-bottom: 20px;
-    font-size: 48px;
+    margin-bottom: 1rem;
+    font-size: 2.4em;
     /* color: #ffffff; */
 }
 
 .hero__subtitle {
-    margin-bottom: 30px;
-    font-size: 24px;
+    margin-bottom: 1.5rem;
+    font-size: 1.2em;
 }
 
 .hero__text {
     max-width: 920px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin-bottom: 1rem;
 }
 
 .hero__link {
     display: block;
-    padding: 10px 20px;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;
     color: #fff;
     background-color: red;
-    font-size: 24px;
+    font-size: 1.2em;
     font-weight: 500;
+}
+
+@media (max-width: 1650px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 16px;
+    }
+    .hero__title {
+        font-size: 2em;
+    }
+}
+@media (max-width: 800px) {
+    .hero__title {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 420px) {
+    .hero__title {
+        font-size: 1.6em;
+    }
+    .hero__link {
+        width: 100%;
+    }
 }

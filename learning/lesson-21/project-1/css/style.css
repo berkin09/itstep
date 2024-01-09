@@ -1,0 +1,29 @@
+.boxes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    transition: all 0.3s linear;
+}
+
+.box1:hover {
+    transform: translate(30px, -20px);
+}
+
+.box2:hover {
+    transform: rotate(90deg);
+}
+
+.box3:hover {
+    transform: scale(-1);
+}
+
+.box4:hover {
+    transform: skew(20deg, 20deg);
+}
