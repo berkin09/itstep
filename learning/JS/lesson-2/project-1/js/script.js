@@ -50,9 +50,9 @@
 // let y = 0;
 // console.log(Math.round(Math.random()*x));
 
-let x = 100;
-let y = 0;
-console.log(Math.random()*x).toFixed(2);
+// let x = 100;
+// let y = 0;
+// console.log(Math.random()*x).toFixed(2);
 
 // let n = 0.6+0.7;
 // console.log(n.toFixed(1));
