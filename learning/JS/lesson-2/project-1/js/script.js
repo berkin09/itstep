@@ -56,7 +56,3 @@
 
 // let n = 0.6+0.7;
 // console.log(n.toFixed(1));
-
-
-
-
