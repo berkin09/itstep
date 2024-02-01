@@ -1,0 +1,150 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.btn {
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 17px 39px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+  color: #3b69a6;
+  border: 2px #3b69a6 solid;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background: linear-gradient(145deg, #7c80ec 65%, #5b5de4 25%);
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-secondary {
+  color: #737376;
+  border: 2px #737376 solid;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background: linear-gradient(145deg, #b2b5bc 65%, #8e9397 25%);
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-success {
+  color: #5e9661;
+  border: 2px #5e9661 solid;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background: linear-gradient(145deg, #1dd36e 65%, #05c150 25%);
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-danger {
+  color: #c8777c;
+  border: 2px #c8777c solid;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background: linear-gradient(145deg, #f14547 65%, #f6250e 25%);
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-warning {
+  color: #ebcb69;
+  border: 2px #ebcb69 solid;
+}
+
+.btn-warning:hover {
+  color: #fff;
+  background: linear-gradient(145deg, #fec93d 65%, #ffb70d 25%);
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-info {
+  color: #7dbabe;
+  border: 2px #7dbabe solid;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background: linear-gradient(145deg, #26d3ed 65%, #02b4d0 25%);
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-light {
+  color: #fff;
+  border: 2px #fff solid;
+}
+
+.btn-light:hover {
+  color: #000;
+  background: linear-gradient(145deg, #e0e0e0 65%, #fffdfe 25%);
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-dark {
+  color: #000;
+  border: 2px #000 solid;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background: linear-gradient(145deg, #5e6c79 65%, #474c50 25%);
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover::before {
+  content: "";
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  filter: blur;
+  background: linear-gradient(
+    to left,
+    transparent 0%,
+    #fff 10%,
+    #fff 20%,
+    transparent 100%
+  );
+  transform: translate(-100%, -25%) rotate(10deg);
+  animation: blick 3s infinite;
+}
+
+@keyframes blick {
+  0% {
+    transform: translate(-100%, -25%) rotate(10deg);
+  }
+  50% {
+    transform: translate(100%, -25%) rotate(10deg);
+  }
+  100% {
+    transform: translate(100%, -25%) rotate(10deg);
+  }
+}

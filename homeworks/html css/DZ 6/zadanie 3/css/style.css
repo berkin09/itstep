@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px 100px;
+    width: 1200px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+.title, .container__paragraph {
+    padding-bottom: 20px;
+}
+
+.termin {
+    font-style: italic;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.termin__ul {
+    list-style: none;
+}
+
+.termin__ol {
+    margin-left: 60px;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.color-blue {
+    color: blue;
+}

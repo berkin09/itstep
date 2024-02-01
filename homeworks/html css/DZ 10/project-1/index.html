@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание-1</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-details">
+        <h2>Credit card details</h2>
+      </div>
+      <div class="card-number__box">
+        <label for="Card-number" class="card-number">Card Number</label>
+        <input
+          type="number"
+          name=""
+          id="Card-number"
+          placeholder="1234 5678 9012 3456"
+          class="card-number__type"
+        />
+        <label for="Name-On-Card" class="card-name">Name-On-Card</label>
+        <input
+          type="text"
+          name=""
+          id="Name-On-Card"
+          placeholder="Name Surname"
+          class="card-name card-name__type"
+        />
+        <div class="wrapper-date">
+        <div class="card-date">
+          <label for="month" class="date">Expiry Date</label>
+          <input
+            type="number"
+            name=""
+            id="month"
+            placeholder="02"
+            maxlength="2"
+            class="month-type"
+          />
+          <input
+            type="number"
+            name=""
+            id="year"
+            placeholder="2017"
+            maxlength="4"
+            class="year-type"
+          />
+        </div>
+        <div class="password-box">
+          <div class="password-box__label">
+          <label for="password" class="password">CVV / CVN</label>
+        </div>
+        <div class="password-box__password">
+          <input
+            type="password"
+            name=""
+            id="password"
+            placeholder="***"
+            maxlength="3"
+            class="password-type"
+          />
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

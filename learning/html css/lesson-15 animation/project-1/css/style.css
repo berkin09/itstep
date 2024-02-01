@@ -1,0 +1,127 @@
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 100px 0;
+}
+
+.box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: grey;
+}
+
+.box1 {
+    background-color: lightcoral;
+}
+
+.box1::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 128, 128, 0.6);
+    border-radius: 100%;
+    z-index: -1;
+    animation: bigSize 2s infinite linear;
+}
+
+@keyframes bigSize {
+    0% {
+        width: 100%;
+        height: 100%;
+    }
+
+    50% {
+        width: 120%;
+        height: 120%;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+    /* 0% {
+        width: 250px;
+        height: 250px;
+        background-color: lightcoral;
+    }
+
+    50% {
+        width: 500px;
+        height: 500px;
+        background-color: lightgreen;
+    }
+
+    100% {
+        width: 250px;
+        height: 250px;
+        background-color: lightcoral;
+    } */
+}
+
+.box2 {
+    background-color: lightskyblue;
+}
+
+.box2::after, .box2::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    content: '';
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    border-radius: 100%;
+    animation: pulse 2s infinite linear;
+    z-index: -1;
+}
+
+.box2::after {
+    animation-delay: 0.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.box3 {
+    border-radius: 0;
+    background-color: lightgreen;
+    animation: skewBox 2.5s 5 ease-in-out;
+    animation-play-state: paused;
+}
+
+.box3:hover {
+    animation-play-state: running;
+    cursor: pointer;
+}
+
+@keyframes skewBox {
+    0% {
+        transform: skew(0);
+    }
+    50% {
+        transform: skew(15deg, 15deg);
+    }
+    100% {
+        transform: skew(0);
+    }
+}

@@ -1,0 +1,47 @@
+.container {
+    padding: 53px 140px 53px 693px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1920;
+}
+
+.hero {
+    padding: 27px 0;
+}
+
+.hero__description {
+    text-align: center;
+    padding: 0 155px;
+}
+
+.description__text {
+    font-size: 30px;
+    padding-bottom: 146px;
+}
+
+.description__name {
+    background: linear-gradient(180deg, #000 49.45%, rgba(0, 0, 0, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+.button {
+display: flex;
+width: 250px;
+padding: 10px 20px;
+background-color: #442614;
+justify-content: center;
+align-items: center;
+margin: 20px auto;
+font-size: 30px;
+color: #fff;
+text-decoration: none;
+}
+
+.description__image{
+    width: 100%;
+}
