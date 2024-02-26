@@ -94,38 +94,69 @@
 
 // 3. Создайте класс для времени, который принимает секунды, минуты и часы. А также метод для отображения времени. И методы для добавления часов, минут и секунд.
 
-class Clock {
-  constructor(seconds, minutes, hours) {
-    this.seconds = seconds;
-    this.minutes = minutes;
-    this.hours = hours;
-  }
-  displayTime() {
-    return `${this.hours}:${this.minutes}:${this.seconds}`;
-  }
-  addHours(hours) {
-    this.hours += hours;
-  }
-  addMinutes(minutes) {
-    this.minutes += Math.floor((this.minutes + minutes) / 60);
-    this.minutes = (this.minutes + minutes) % 60;
-  }
-  addSeconds(seconds) {
-    this.minutes += Math.floor((this.seconds + seconds) / 60);
-    this.seconds = (this.seconds + seconds) % 60;
-    this.hours += Math.floor(this.minutes / 60);
-    this.minutes %= 60;
-  }
-}
+// class Clock {
+//   constructor(seconds, minutes, hours) {
+//     this.seconds = seconds;
+//     this.minutes = minutes;
+//     this.hours = hours;
+//   }
+//   displayTime() {
+//     return `${this.hours}:${this.minutes}:${this.seconds}`;
+//   }
+//   addHours(hours) {
+//     this.hours += hours;
+//   }
+//   addMinutes(minutes) {
+//     this.minutes += Math.floor((this.minutes + minutes) / 60);
+//     this.minutes = (this.minutes + minutes) % 60;
+//   }
+//   addSeconds(seconds) {
+//     this.minutes += Math.floor((this.seconds + seconds) / 60);
+//     this.seconds = (this.seconds + seconds) % 60;
+//     this.hours += Math.floor(this.minutes / 60);
+//     this.minutes %= 60;
+//   }
+// }
 
-let timeSet = new Clock(10, 30, 45);
-console.log("Время:", timeSet.displayTime());
+// let timeSet = new Clock(10, 30, 45);
+// console.log("Время:", timeSet.displayTime());
 
-timeSet.addHours(2);
-console.log("после добавление 2 часов:", timeSet.displayTime());
+// timeSet.addHours(2);
+// console.log("после добавление 2 часов:", timeSet.displayTime());
 
-timeSet.addMinutes(45);
-console.log("После добавление 45 минут:", timeSet.displayTime());
+// timeSet.addMinutes(45);
+// console.log("После добавление 45 минут:", timeSet.displayTime());
 
-timeSet.addSeconds(120);
-console.log("После добавление 120 секунд:", timeSet.displayTime());
+// timeSet.addSeconds(120);
+// console.log("После добавление 120 секунд:", timeSet.displayTime());
+
+
+// 4. Создайте класс для телефона (имя бренд цена и фотография, метод отображения карточек в html, также использовать css). Отобразите три карточки с телефонами.
+// Используя массив для отображения, в котором объекты трех телефонов, созданных через класс.
+// class Telephone {
+//   constructor(name, price, img) {
+//     this.name = name;
+//     this.price = price;
+//     this.img = img;
+//   }
+
+//     displayHTML() {
+//         const phoneCardHTML = `
+//         <div class="phone-card">
+//             <h2><strong>Бренд:</strong> ${this.name}</h2>
+//             <h2><strong>Цена:</strong> ${this.price}</h2>
+//             <img class="phone-img" src="${this.img}" alt="${this.name}">
+//         </div>
+//     `;
+//     document.write(phoneCardHTML);
+//   }
+// }
+// const phones = [
+//     new Telephone('Nokia', 800, 'https://satelonline.kz/upload/iblock/635/yymqk2gab36ohvl870r2jweg5c33ik8c.jpg'),
+//     new Telephone('Samsung', 1000, 'https://api.fmobile.kz/image/media/sale/image/smartfon_gsm_samsung_sm_s918bzghskz_galaxy_s23_ultra_512gb_green_269597_1a%202023-02-13_11-38-12.821393%20d08c74d5bc7834c1405b78c8.jpg'),
+//     new Telephone('Iphone', 1100, 'https://activ.kz/shop/media/__sized__/products/1_R6GEUef-thumbnail-510x510-90.jpg')
+// ];
+
+// for (let i = 0; i < phones.length; i++) {
+//     phones[i].displayHTML();
+// }
