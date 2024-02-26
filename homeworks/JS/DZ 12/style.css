@@ -2,16 +2,17 @@
   display: flex;
   gap: 20px;
 }
-.phone-card {
+
+.car-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.auto-card {
   padding: 10px;
   margin: 10px;
   width: 200px;
   border: 1px solid #ccc;
   border-radius: 5px;
   text-align: center;
-}
-
-.phone-img {
-  max-width: 100%;
-  height: auto;
 }
