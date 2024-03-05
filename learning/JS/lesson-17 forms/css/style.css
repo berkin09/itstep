@@ -1,0 +1,43 @@
+/*Global styles*/
+html {
+  font-size: 18px;
+}
+.section {
+  padding: 100px 0;
+}
+.container {
+  max-width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/*Boxes*/
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 50px 0;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/*Elements*/
+.error {
+  background-color: red;
+}
+
+.warning {
+  background-color: yellow;
+}
+
+.basic {
+  background-color: green;
+}
