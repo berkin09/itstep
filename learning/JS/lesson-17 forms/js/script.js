@@ -82,7 +82,7 @@
 //   console.log(select.selectedIndex);
 // };
 
-let user = {
-  login: ...,
-  pass: 
-}
+// let user = {
+//   login: ...,
+//   pass: 
+// }
