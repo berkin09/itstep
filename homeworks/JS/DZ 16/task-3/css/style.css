@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(253, 228, 196);
+}
+.container {
+  width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.section__container {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  width: 200px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid black;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.card__img {
+  width: 180px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.card__img img {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__title {
+  font-size: 18px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.info__author {
+  font-size: 12px;
+  color: grey;
+}
+.info__price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card__btn {
+  width: 100%;
+  background-color: rgb(202, 177, 144);
+}
+
+.formUser {
+  width: 450px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 10px;
+  border: 1px solid black;
+}
+
+.formUser div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formUser input,
+.formUser textarea {
+  width: 300px;
+}
+
+.result__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.result__box {
+  width: 100%;
+  /* height: 300px; */
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.result__name {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.result__txt {
+  font-size: 20px;
+}

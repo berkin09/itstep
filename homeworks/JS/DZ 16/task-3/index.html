@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="section">
+        <div class="container">
+          <div class="section__container">
+            <div class="cards">
+              <div class="card-1 card">
+                <div class="card__img">
+                  <img src="./img/learnin-js.png" alt="" />
+                </div>
+                <h2 class="card__title">JavaScript Полное руководство</h2>
+                <div class="info">
+                  <div class="info__author">Дэвид Флэнаган</div>
+                  <div class="info__price">16$</div>
+                </div>
+                <button class="card__btn">Выбрать</button>
+              </div>
+
+              <div class="card-2 card">
+                <div class="card__img">
+                  <img src="./img/js.jpg" alt="" />
+                </div>
+                <h2 class="card__title">Замыкания & Объекты</h2>
+                <div class="info">
+                  <div class="info__author">Кайл Симпсон</div>
+                  <div class="info__price">20$</div>
+                </div>
+                <button class="card__btn">Выбрать</button>
+              </div>
+
+              <div class="card-3 card">
+                <div class="card__img">
+                  <img src="./img/js-jquery.jpg" alt="" />
+                </div>
+                <h2 class="card__title">JavaScript и JQuery</h2>
+                <div class="info">
+                  <div class="info__author">Дэвид МакФарланд</div>
+                  <div class="info__price">22$</div>
+                </div>
+                <button class="card__btn">Выбрать</button>
+              </div>
+
+              <div class="boxUser">
+                <form action="" class="formUser">
+                  <div class="bookInfo">
+                    <label for="book">Книга:</label>
+                    <input type="text" disabled id="book" />
+                  </div>
+                  <div class="quantityInfo">
+                    <label for="quantity">Количество:</label>
+                    <input type="number" id="quantity" />
+                  </div>
+                  <div class="userInfo">
+                    <label for="name">Ваше Имя:</label>
+                    <input type="text" id="name" />
+                  </div>
+                  <div class="deliveryInfo">
+                    <label for="delivery">Адрес доставки:</label>
+                    <textarea
+                      name=""
+                      id="delivery"
+                      cols="30"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                  <div class="deliveryDateInfo">
+                    <label for="deliveryDate">Дата доставки</label>
+                    <input type="date" name="" id="deliveryDate" />
+                  </div>
+                  <div class="commentInfo">
+                    <label for="comment">Комментарии:</label>
+                    <textarea
+                      name=""
+                      id="comment"
+                      cols="30"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                  <button class="card__btn">Купить</button>
+                </form>
+              </div>
+            </div>
+            <div class="result">
+              <div class="result__title">Результат:</div>
+              <div class="result__box">
+                <div class="result__name"></div>
+                <div class="result__txt"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

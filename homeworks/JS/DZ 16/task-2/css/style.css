@@ -1,0 +1,20 @@
+.container {
+  width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.section__container {
+  padding: 50px 0;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}

@@ -1,18 +1,23 @@
-let day = +prompt("Введите день рождения");
-let month = +prompt("Введите месяц рождения") - 1;
-let year = +prompt("Введите год рождения");
+/* 1. Пользователь вводит дату рождения (день, месяц, год).
+Вывести количество полных лет на данный момент времени. */
 
-let date = new Date();
-let birthday = new Date(year, month, day);
-console.log(date);
+// var currentDate = new Date();
 
-let age =
-  date.getFullYear() -
-  birthday.getFullYear() -
-  (date < birthday.setFullYear(date.getFullYear()));
+// var day = +prompt("Введите день рождения:");
+// var month = +prompt("Введите месяц рождения:") - 1;
+// var year = +prompt("Введите год рождения:");
 
-console.log("Вам сейчас " + age + " " + (age === 1 ? "год" : "лет") + ".");
+// var birthday = new Date(year, month, day);
 
-function changeText(elem, txt) {
-  elem.textContent = txt;
-}
+// var age = currentDate.getFullYear() - birthday.getFullYear();
+
+// if (
+//   currentDate.getMonth() < birthday.getMonth() ||
+//   (currentDate.getMonth() === birthday.getMonth() &&
+//     currentDate.getDate() < birthday.getDate())
+// ) {
+//   age--;
+// }
+
+// console.log("Вам сейчас " + age + " " + (age === 1 ? "год" : "лет") + ".");
+
