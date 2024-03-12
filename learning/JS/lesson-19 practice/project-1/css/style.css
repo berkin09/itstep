@@ -1,0 +1,66 @@
+.container {
+  max-width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.section__container {
+  padding: 50px 0;
+}
+.calculator {
+  width: 300px;
+  height: 350px;
+  padding: 5px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calculator__display input {
+  width: 280px;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 24px;
+}
+.calculator__elements {
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.calculator__elements input {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.map {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/mirage.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.person {
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  height: 700px;
+  width: max-content;
+}
+
+.person img {
+  width: 100%;
+  height: 100%;
+}
