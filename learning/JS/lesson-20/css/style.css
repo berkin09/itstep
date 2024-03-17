@@ -1,0 +1,8 @@
+.container {
+  max-width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.section__container {
+  padding: 50px 0;
+}

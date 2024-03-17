@@ -1,0 +1,33 @@
+.container {
+  width: 1232px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  width: 200px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  width: max-content;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
