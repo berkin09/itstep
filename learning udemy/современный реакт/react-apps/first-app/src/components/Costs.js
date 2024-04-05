@@ -1,3 +1,1 @@
-function Costs(props) {
-    
-}
+function Costs(props) {}
