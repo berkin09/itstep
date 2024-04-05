@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Футбольное поле с мячом</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      #field {
+        width: 100%;
+        height: 100%;
+        background-color: green;
+        position: relative;
+      }
+      #ball {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="field">
+      <div id="ball"></div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const field = document.getElementById("field");
+        const ball = document.getElementById("ball");
+
+        field.addEventListener("click", function (event) {
+          // Получаем размеры мяча
+          const ballWidth = ball.offsetWidth;
+          const ballHeight = ball.offsetHeight;
+
+          // Рассчитываем новые координаты мяча, чтобы его центр был в точке клика мыши
+          const clickX = event.clientX;
+          const clickY = event.clientY;
+          const fieldRect = field.getBoundingClientRect();
+          const fieldLeft = fieldRect.left + window.pageXOffset;
+          const fieldTop = fieldRect.top + window.pageYOffset;
+          const newX = clickX - fieldLeft - ballWidth / 2;
+          const newY = clickY - fieldTop - ballHeight / 2;
+
+          // Проверяем, чтобы мяч не вышел за границы поля
+          const maxX = field.offsetWidth - ballWidth;
+          const maxY = field.offsetHeight - ballHeight;
+          const finalX = Math.max(0, Math.min(newX, maxX));
+          const finalY = Math.max(0, Math.min(newY, maxY));
+
+          // Плавно перемещаем мяч
+          ball.style.transition = "left 0.5s, top 0.5s";
+          ball.style.left = finalX + "px";
+          ball.style.top = finalY + "px";
+        });
+      });
+    </script>
+  </body>
+</html>
